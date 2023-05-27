@@ -4,7 +4,9 @@
 }
 
 .nav-logo-text {
-  color: #fff;
+  color: #000;
+  font-size: 24px;
+  letter-spacing: -0.015em;
 }
 
 .nav-logo-text:hover {

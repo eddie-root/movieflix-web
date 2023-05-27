@@ -8,11 +8,8 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-banner-container">
-        <h1>Divulgue seus produtos no DS Catalog</h1>
-        <p>
-          Faça parte do nosso catálogo de divulgação e aumente a venda dos seus
-          produtos
-        </p>
+        <h1>Avalie Filmes</h1>
+        <p>Diga o que você achou do seu filme favorito</p>
         <AuthImage />
       </div>
       <div className="auth-form-container">

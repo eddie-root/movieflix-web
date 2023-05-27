@@ -1,6 +1,6 @@
 import './styles.css';
 
-import { Link } from 'react-router-dom';
+
 import ButtonIcon from 'components/ButtonIcon';
 import { useForm } from "react-hook-form";
 // import { requestBackendLogin } from 'util/requests';
@@ -42,22 +42,15 @@ const Login = () => {
                         {...register("password")}
                         type="password"
                         className="form-control base-input "
-                        placeholder="Password"
+                        placeholder="Senha"
                         name="password"
                     />
                 </div>
-                <Link to="/admin/auth/recover" className="login-link-recover">
-                    Esquerci minha senha
-                </Link>
+
                 <div className='login-submit'>
                     <ButtonIcon text='Fazer login' />
                 </div>
-                <div className='signup-container'>
-                    <span className='not-registered'>Não tem cadastro?</span>
-                    <Link to="/admin/auth/signup" className="login-link-register">
-                        CADASTRAR
-                    </Link>
-                </div>
+
             </form>
         </div>
     );
