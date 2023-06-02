@@ -12,3 +12,13 @@
 .nav-logo-text:hover {
   color: #fff;
 }
+
+.button-retorno {
+  width: 100px;
+  background-color: #ffc700;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-right: 28px;
+  font-weight: 700;
+  font-size: 14px;
+}

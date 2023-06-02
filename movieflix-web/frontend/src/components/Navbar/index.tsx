@@ -8,10 +8,14 @@ const Navbar = () => {
     <nav className="navbar bg-primary main-nav">
       <div className="container-fluid">
 
-        <Link to="/login" className="nav-logo-text">
+        <Link to="/" className="nav-logo-text">
           <h4>MovieFlix</h4>
         </Link>
-
+        <Link to="/" >
+          <button className='button-retorno'>
+            SAIR
+          </button>
+        </Link>
 
       </div>
     </nav>

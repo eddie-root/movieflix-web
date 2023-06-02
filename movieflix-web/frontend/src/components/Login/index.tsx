@@ -3,6 +3,7 @@ import './styles.css';
 
 import ButtonIcon from 'components/ButtonIcon';
 import { useForm } from "react-hook-form";
+import { Link } from 'react-router-dom';
 // import { requestBackendLogin } from 'util/requests';
 
 type FormData = {
@@ -48,7 +49,9 @@ const Login = () => {
                 </div>
 
                 <div className='login-submit'>
-                    <ButtonIcon text='Fazer login' />
+                    <Link to="/movies" >
+                        <ButtonIcon text='Fazer login' />
+                    </Link>
                 </div>
 
             </form>
