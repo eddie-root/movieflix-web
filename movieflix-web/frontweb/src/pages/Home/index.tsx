@@ -1,12 +1,12 @@
 import './styles.css';
 
+import Login from './Login';
 import { ReactComponent as AuthImage } from 'assets/images/main-image.svg';
-import Login from '../../components/Login';
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <div className="home-banner-container">
+    <div className="rota-container">
+      <div className="rota-banner-container">
         <h1>Avalie Filmes</h1>
         <p>Diga o que você achou do seu filme favorito</p>
         <AuthImage />
@@ -16,6 +16,7 @@ const Home = () => {
       </div>
     </div>
   );
+
 };
 
 export default Home;

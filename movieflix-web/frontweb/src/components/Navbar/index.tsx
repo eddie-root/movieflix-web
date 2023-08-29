@@ -11,11 +11,7 @@ const Navbar = () => {
         <Link to="/" className="nav-logo-text">
           <h4>MovieFlix</h4>
         </Link>
-        <Link to="/" >
-          <button className='button-retorno'>
-            SAIR
-          </button>
-        </Link>
+
 
       </div>
     </nav>

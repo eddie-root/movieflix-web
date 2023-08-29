@@ -1,10 +1,14 @@
-.home-container {
+.rota-container {
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
 
-.home-banner-container {
+.rota-banner-container {
+  display: none;
+}
+
+.button-back-rota {
   display: none;
 }
 
@@ -25,18 +29,18 @@
 }
 
 @media (min-width: 1200px) {
-  .home-container {
+  .rota-container {
     height: 652px;
   }
 
-  .home-banner-container {
+  .rota-banner-container {
     display: flex;
     flex-direction: column;
     margin-top: 81px;
     width: 500px;
   }
 
-  .home-banner-container h1 {
+  .rota-banner-container h1 {
     width: 370px;
     height: 65px;
     font-size: 48px;
@@ -45,7 +49,7 @@
     margin-left: 97px;
   }
 
-  .home-banner-container p {
+  .rota-banner-container p {
     width: 320px;
     height: 60px;
     font-weight: 400;
@@ -57,7 +61,7 @@
     margin-left: 97px;
   }
 
-  .home-banner-container svg {
+  .rota-banner-container svg {
     width: 389px;
     height: 272px;
     margin-left: 67px;
