@@ -24,16 +24,17 @@
 }
 
 .mb-4 input {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   border-radius: 4px;
 }
 
 .mb-2 input {
-  margin-bottom: 64px;
+  margin-bottom: 0px;
   border-radius: 4px;
 }
 
 .login-submit {
+  margin-top: 64px;
   margin-bottom: 103px;
 }
 
