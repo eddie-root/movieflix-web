@@ -1,28 +1,28 @@
-.movies-container h1 {
-  width: 647px;
-  height: 65px;
+.movies-container {
+  padding-left: 0px;
+}
+
+.movies-container h4 {
+  font-size: 24px;
   color: #fff;
-  font-size: 48px;
-  margin-top: 41px;
-  margin-left: 40px;
+  padding: 15px;
 }
 
-.container-movies1 {
-  width: 397px;
-  height: 33px;
-  margin-left: 40px;
-  color: #ffffff;
+.movies-container p {
+  font-size: 18px;
   font-weight: 400;
-  font-size: 24px;
-  letter-spacing: -0.015em;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
-.container-movies2 {
-  width: 397px;
-  height: 33px;
-  margin-left: 40px;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 24px;
-  letter-spacing: -0.015em;
+@media (min-width: 1200px) {
+  .movies-container h4 {
+    font-size: 48px;
+    margin-left: 25px;
+  }
+
+  .movies-container p {
+    margin-left: 45px;
+  }
 }

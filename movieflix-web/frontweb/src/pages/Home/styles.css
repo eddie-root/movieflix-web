@@ -24,6 +24,9 @@
 
 @media (min-width: 768px) {
   .auth-form-container {
+    display: flex;
+    justify-content: center;
+
     padding: 40px 144px 304px 144px;
   }
 }

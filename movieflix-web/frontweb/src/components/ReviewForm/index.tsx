@@ -1,26 +1,35 @@
-import ButtonIcon from "components/ButtonIcon";
+import React from 'react';
+import './styles.css';
+
 
 const ReviewForm = () => {
+
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        console.log("mudou " + event.target.value);
+    }
+
+    const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        console.log("clicou no botao");
+    }
+
     return (
-        <div className='base-card form-container'>
+        <div className="review-form-container base-card">
 
-            <form >
-                <div className='mb-4'>
+            <form onSubmit={handleSubmit}>
+                <div className="form-container">
                     <input
-
                         type="text"
-                        className="form-control base-input"
-                        placeholder="Email"
-                        name="username"
+                        className="search-input"
+                        placeholder="Deixe sua avaliação aqui"
+                        onChange={handleChange}
                     />
+                    <button type="submit" className="btn btn-primary save-button">
+                        SALVAR AVALIAÇÃO
+                    </button>
                 </div>
-
-
-                <div className='salvar-avaliacao'>
-                    <ButtonIcon text='Fazer Login' />
-                </div>
-
             </form>
+
         </div>
     );
 }
