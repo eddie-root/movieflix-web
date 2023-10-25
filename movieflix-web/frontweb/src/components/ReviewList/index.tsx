@@ -1,5 +1,5 @@
 import './styles.css';
-import ReviewCard from "components/ReviewCard";
+import resultReviewCard from 'components/ResultReviewCard';
 
 
 const ReviewList = () => {
@@ -10,7 +10,6 @@ const ReviewList = () => {
                 <div className='information-section'>
                     <div className='result-section'>
                         <div className='perfil-text'>Informações</div>
-                        <ReviewCard title='Perfil: ' description='' />
 
                     </div>
                 </div>

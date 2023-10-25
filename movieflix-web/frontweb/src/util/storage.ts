@@ -19,3 +19,6 @@ export const getAuthData = () => {
     return obj as LoginResponse;
 }
 
+export const removeAuthData = () => {
+    localStorage.removeItem(tokenKey);
+}
