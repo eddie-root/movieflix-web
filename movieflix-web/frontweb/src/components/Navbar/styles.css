@@ -23,8 +23,28 @@
   font-size: 14px;
 }
 
+.nav-logout {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logout a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 @media (min-width: 1200px) {
   .container-fluid h4 {
     margin-left: 25px;
+  }
+
+  .nav-logout {
+    margin-right: 20px;
   }
 }
